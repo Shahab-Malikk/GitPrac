@@ -5,7 +5,6 @@ It's just a practice project to practice git commands and for better understandi
 
 
 
-
 ## How it will work
 
 For this one you have to create your own branch naming convention will be jsPrac/your_intials and you have to push the code on your specific branch
@@ -16,8 +15,10 @@ For this one you have to create your own branch naming convention will be jsPrac
 Following are the steps you have to follow 
 
 ```bash
-  git pull origin jsPrac
-  git checkout -b jsPrac/your_intials jsPrac
+  git clone https://github.com/Shahab-Malikk/GitPrac.git
+  cd GitPrac
+  git checkout jsPrac
+  git checkout -b YOUR_INTIALS/jsPrac jsPrac
   ```
 
 After creating and switching to your new branch you will create a folder by your name and then will add your code files in that folder. After writing code or when you want to push code to git follow these commands
